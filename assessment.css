@@ -1,0 +1,21 @@
+body {
+    background-color: #ffe4e1;
+    color: #483d8b ;
+    width: 500px;
+    margin: 20px 30px ;
+  }
+  button {
+    padding: 5px 10px;
+    background-color: #778899;
+    border-style: none;
+  }
+  input {
+    height: 20px;
+  }
+  セレクタ {
+    font-family: フォントの種類;
+}
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+h1 {
+    font-family: 'Sacramento', cursive;
+}

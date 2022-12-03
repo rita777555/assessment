@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ga">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>天気予報とおススメコーデ</title>
+    <link rel="stylesheet" href="assessment.css">
+</head>
+<body>
+    <h1>Dress for the weather</h1>
+   <p>今日の日付
+   <input type="text" id="date" size="5" maxlength="20">
+   <button id="assessment">check</button></p>
+  
+   <table border="1" id="targetTable">
+        <thead>
+            <tr>
+                <td>日付</td>
+                <td>天気</td>
+                <td>最高気温</td>
+                <td>最低気温</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr id="tar"></tr>
+           
+        <tbody>
+    </table>  
+   
+
+    <p><label for="date">今日の予定: </label>
+    <select id="task">
+     <option value="">--選択してください--</option>
+     <option value="プレゼン">プレゼン</option>
+     <option value="デスクワーク">デスクワーク</option>
+     <option value="プライベートで予定あり">プライベートで予定あり</option>
+
+</select></p>
+
+<div id="codinate"></div>
+
+<p></p>
+<script src="assessment.js"></script>
+</body>
+</html>
